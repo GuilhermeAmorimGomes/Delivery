@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    height: 1100px;
+    width: 13%;
+    position: sticky;
+    top: 0;
+}
+
+main{
+    background-image: url(img01.webp);
+    background-size: 100%;
+    background-position: center 0;
+    width: 87%;
+    background-attachment: fixed;
+    height: 300vh;
+}
+
+body{
+    display: flex;
+    
+}
+#welcome{
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    backdrop-filter: brightness(50%);
+    
+}
+#welcome p {width: 60%;}
+.imagens{
+    width: 33%;
+    height: 300px;
+    border: solid 1px;
+    overflow: hidden;
+
+}
+#photos{
+    display: flex;
+    flex-wrap: wrap;
+}
+#div01{
+    height: 25px;
+}
+
+.p01{
+    color: white;
+    text-align: center;
+}
+#preto{
+    color: black;
+}
+#meio{
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+#cinza{
+    height: 800px;
+    background-color: gray;
+    text-align: center;
+    color: white;
+}
+#pretao{
+    height: 800px;
+    background-color: black;
+    text-align: center;
+    color: white;
+   
+    
+    
+}
+#abc{
+    display: flex;
+    justify-content: center;
+}
+#def{
+    display: flex;
+    justify-content: center;
+}
+
+
+    
